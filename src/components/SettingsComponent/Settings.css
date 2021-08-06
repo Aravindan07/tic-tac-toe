@@ -1,0 +1,22 @@
+.outer-wrap {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.settings-icons-wrapper {
+	background-color: #fff;
+	padding: 1rem;
+	border-radius: 50%;
+	box-shadow: 0 0 1rem rgba(43, 108, 250, 0.25);
+	margin: 2rem 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	width: 60px;
+}
+
+.settings-icons-wrapper svg {
+	width: 30px;
+	height: 30px;
+}

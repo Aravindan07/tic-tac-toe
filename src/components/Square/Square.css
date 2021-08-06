@@ -1,0 +1,78 @@
+.squares {
+	border: none;
+	font-size: 3rem;
+	cursor: pointer;
+	outline: none;
+	background-color: #fff;
+}
+
+.X {
+	border: none;
+	background-color: #fff;
+}
+
+.O {
+	border: none;
+	background-color: #fff;
+}
+
+.cross {
+	outline: none;
+	border: none;
+	font-weight: 800;
+	font-size: 7rem;
+	background: linear-gradient(to right, #1560bd, #00ffff);
+	background-color: #fff;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+}
+.side-icons-box {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.cross::before {
+	content: "";
+	position: absolute;
+	bottom: 19px;
+	left: 5%;
+	width: 90%;
+	height: 10px;
+	background: #1560bd;
+	border-radius: 50%;
+	z-index: 1;
+	filter: blur(11px);
+}
+.circle {
+	outline: none;
+	border: none;
+	font-weight: 800;
+	font-size: 7rem;
+	background: linear-gradient(to right, #ff6600, #ffbe45);
+	background-color: #fff;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+}
+.circle::before {
+	content: "";
+	position: absolute;
+	bottom: 19px;
+	left: 5%;
+	width: 90%;
+	height: 10px;
+	background: #ff6600;
+	border-radius: 50%;
+	z-index: 1;
+	filter: blur(11px);
+}
+
+@media only screen and (max-width: 420px) {
+	.cross {
+		font-size: 2rem;
+	}
+	.circle {
+		font-size: 2rem;
+	}
+}

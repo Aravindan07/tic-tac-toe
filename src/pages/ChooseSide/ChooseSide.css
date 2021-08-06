@@ -1,0 +1,34 @@
+.radio-label {
+	opacity: 0.5;
+}
+
+.radio-label-checked {
+	opacity: 1;
+}
+
+.radio-input {
+	position: relative;
+	top: 3rem;
+	width: 2em;
+	height: 2em;
+	cursor: pointer;
+}
+
+.radio-input:checked {
+	border: 1px solid blue;
+}
+
+.continue-button {
+	font-size: 16px;
+	font-weight: 500;
+	letter-spacing: 0.8px;
+	border: none;
+	outline: transparent;
+	border-radius: 1rem;
+	margin: 5rem 0 0 0;
+	cursor: pointer;
+	background-color: #fcfefd;
+	padding: 0.5rem 1rem;
+	color: #000;
+	box-shadow: 0 0 1.4rem rgba(208, 218, 225, 0.5);
+}
